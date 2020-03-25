@@ -1,6 +1,6 @@
 <template>
 
-<footer class="page-footer font-small "  style="background-color: black">
+<footer class="page-footer font-small "  style="background-color: black" height="100px">
 >
 
   <!-- Footer Links -->

@@ -1,7 +1,7 @@
 <template>
 <div id="caro">
     
-        <carousel :per-page="1" :mouse-drag= "true" :autoplay= true  :loop= true  :speed ="2000">
+        <carousel :per-page="1" :mouse-drag= "true" :autoplay= true  :loop= true  :speed ="10000">
 
             <slide v-for="image in carouselImage" :key="image.imageUrl" >
                 <img :src="image.imageUrl"  width= 900; height= 300; />

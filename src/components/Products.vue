@@ -4,7 +4,7 @@
            <img :src="product.imageLink" height="150" width="250">
     <p>{{product.name}}  </p>
     <p> &#8358; {{product.price}} </p>
-    <b-button  href="#" style="margin-top:10px" @click="gotoProductDetails(product.name)"> Buy Now </b-button>  
+    <b-button  href="#" style="margin-top:10px" @click="gotoProductDetails(product.id)"> Buy Now </b-button>  
    </div>
 </div>
       
